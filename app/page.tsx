@@ -7,8 +7,6 @@ import {
   Mail, 
   Phone, 
   MapPin, 
-  Linkedin, 
-  Globe, 
   ExternalLink, 
   CheckCircle2, 
   BarChart3, 
@@ -101,7 +99,7 @@ export default function Home() {
 
           <div className="flex flex-wrap gap-4 mt-8">
             <a href={personalInfo.socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-slate-200 transition text-sm flex items-center gap-2">
-              <Linkedin className="w-4 h-4 text-cyan-400" /> LinkedIn
+              🌐 LinkedIn
             </a>
             <a href={`mailto:${personalInfo.socialLinks.email}`} className="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-slate-200 transition text-sm flex items-center gap-2">
               <Mail className="w-4 h-4 text-cyan-400" /> Email
@@ -328,7 +326,7 @@ export default function Home() {
                   required
                   placeholder="Tell me about your dataset or project requirements..." 
                   value={formData.message}
-                  onChange={(e) => setFormData({...formData, message: e.target.value})}
+                  onChange={(e) => setformData({...formData, message: e.target.value})}
                   className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-200 focus:outline-none focus:border-cyan-500 transition resize-none"
                 />
               </div>
