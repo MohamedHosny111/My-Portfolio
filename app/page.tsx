@@ -100,7 +100,7 @@ export default function Home() {
             <a href={personalInfo.socialLinks.linkedin} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-slate-200 transition text-sm flex items-center gap-2">
               🌐 LinkedIn
             </a>
-            <a href={`mailto:${personalInfo.socialLinks.email}`} className="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-slate-200 transition text-sm flex items-center gap-2">
+            <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${personalInfo.socialLinks.email}`} target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-slate-200 transition text-sm flex items-center gap-2">
               <Mail className="w-4 h-4 text-cyan-400" /> Email
             </a>
             <a href={`tel:${personalInfo.socialLinks.phone}`} className="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-lg text-slate-200 transition text-sm flex items-center gap-2">
@@ -258,7 +258,7 @@ export default function Home() {
               <div className="mt-8 space-y-4">
                 <div className="bg-slate-950/60 border border-slate-800/60 p-4 rounded-xl">
                   <span className="text-xs text-slate-500 uppercase tracking-wider block font-mono">Email Address</span>
-                  <a href={`mailto:${personalInfo.socialLinks.email}`} className="text-slate-200 text-sm font-medium hover:text-cyan-400 transition mt-1 block">
+                  <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${personalInfo.socialLinks.email}`} target="_blank" rel="noopener noreferrer" className="text-slate-200 text-sm font-medium hover:text-cyan-400 transition mt-1 block">
                     {personalInfo.socialLinks.email}
                   </a>
                 </div>
