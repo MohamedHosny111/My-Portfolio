@@ -9,10 +9,9 @@ import {
   MapPin, 
   ExternalLink, 
   CheckCircle2, 
-  BarChart3, 
-  GraduationCap, 
   Award, 
   MessageSquare, 
+  GraduationCap,
   Send 
 } from 'lucide-react';
 
@@ -326,7 +325,7 @@ export default function Home() {
                   required
                   placeholder="Tell me about your dataset or project requirements..." 
                   value={formData.message}
-                  onChange={(e) => setformData({...formData, message: e.target.value})}
+                  onChange={(e) => setFormData({...formData, message: e.target.value})}
                   className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-sm text-slate-200 focus:outline-none focus:border-cyan-500 transition resize-none"
                 />
               </div>
