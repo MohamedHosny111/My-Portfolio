@@ -67,7 +67,14 @@ const portfolioData = {
   testimonial: {
     quote: "Mohamed transformed our raw sales spreadsheet into a very clear and easy-to-read Excel dashboard. It helped us immediately see which products were most profitable.",
     author: "— E-commerce Store Owner (Freelance Practice Case)"
-  }
+  },
+    {
+      title: "HR & Payroll Analytics Dashboard",
+      category: "Excel, Power Query, Dynamic Pivot Tables",
+      description: "Cleaned and transformed employee payroll and attendance data using Power Query. Designed an interactive executive dashboard to analyze total payroll ($380M+), deductions, late arrival minutes, and departmental distribution.",
+      image: "/images/hr-payroll-dashboard.png",
+      link: "https://github.com/MohamedHosny111/https://github.com/MohamedHosny111/HR-Employees-Dashboard-PowerBI"
+    }
 };
 
 export default function Home() {
