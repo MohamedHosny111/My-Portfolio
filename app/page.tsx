@@ -71,6 +71,11 @@ const portfolioData = {
       link: "https://github.com/MohamedHosny111/HR-Employees-Dashboard-PowerBI"
     }
   ],
+  testimonial: {
+    quote: "Mohamed transformed our raw sales spreadsheet into a very clear and easy-to-read Excel dashboard. It helped us immediately see which products were most profitable.",
+    author: "— E-commerce Store Owner (Freelance Practice Case)"
+  }
+};
 
 export default function Home() {
   const { personalInfo, skills, education, certifications, projects, testimonial } = portfolioData;
@@ -134,9 +139,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Project Section */}
+      {/* Featured Projects Section */}
       <section className="max-w-4xl mx-auto py-12 border-t border-slate-800">
-        <h3 className="text-2xl font-bold mb-6 text-cyan-400">Selected Project</h3>
+        <h3 className="text-2xl font-bold mb-6 text-cyan-400">Selected Projects</h3>
         <div className="grid grid-cols-1 gap-6">
           {projects.map((project, index) => (
             <motion.div 
@@ -148,7 +153,7 @@ export default function Home() {
             >
               {project.image && (
                 <div className="md:w-1/3 h-48 md:h-auto overflow-hidden bg-slate-800">
-                  <img src={project.image} alt={project.title} className="w-full h-full object-cover group-hover:scale-105 transition duration-500" />
+                  <img src={project.image} alt={project.title} className="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500" />
                 </div>
               )}
               <div className={`p-6 ${project.image ? 'md:w-2/3' : 'w-full'} flex flex-col justify-between`}>
