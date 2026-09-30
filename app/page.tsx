@@ -69,11 +69,11 @@ const portfolioData = {
     author: "— E-commerce Store Owner (Freelance Practice Case)"
   },
     {
-      title: "HR & Payroll Analytics Dashboard",
-      category: "Excel, Power Query, Dynamic Pivot Tables",
-      description: "Cleaned and transformed employee payroll and attendance data using Power Query. Designed an interactive executive dashboard to analyze total payroll ($380M+), deductions, late arrival minutes, and departmental distribution.",
-      image: "/images/hr-payroll-dashboard.png",
-      link: "https://github.com/MohamedHosny111/https://github.com/MohamedHosny111/HR-Employees-Dashboard-PowerBI"
+      title: "Superstore Sales & Profit Performance Dashboard",
+      category: "Power BI, Power Query, DAX",
+      description: "Built an interactive HR dashboard from 311 employee records using Power Query for data cleaning and DAX for measures. Covers headcount, active vs. terminated employees, department distribution, recruitment sources, performance scores, salaries, and employee locations. Key result: Revealed a 33.44% turnover rate and that Production accounts for about 67% of the workforce.",
+      image: "/images/hr-employees-dashboard.png",
+      link: "https://github.com/MohamedHosny111/HR-Employees-Dashboard-PowerBI"
     }
 };
 
