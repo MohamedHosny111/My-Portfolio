@@ -55,27 +55,26 @@ const portfolioData = {
       description: "Completed professional assessment covering core artificial intelligence concepts and modern applications."
     }
   ],
-  projects: [
-    {
-      title: "Superstore Sales & Profit Performance Dashboard",
-      category: "Excel, Power Query, Dynamic Pivot Tables",
-      description: "Cleaned and transformed multi-year sales data using Power Query. Designed an interactive executive dashboard that allows stakeholders to filter performance by region, customer segment, and product category. Key result: Identified low-margin product categories and highlighted top-performing sales regions.",
-      image: "/images/superstore-dashboard.png",
-      link: "https://docs.google.com/spreadsheets/d/1Z39m5s7_MLrv2H4MHCUN3DYWwsXY4XN7/edit?usp=drive_link&ouid=106832592273789903882&rtpof=true&sd=true"
-    }
-  ],
-  testimonial: {
-    quote: "Mohamed transformed our raw sales spreadsheet into a very clear and easy-to-read Excel dashboard. It helped us immediately see which products were most profitable.",
-    author: "— E-commerce Store Owner (Freelance Practice Case)"
+ projects: [
+  {
+    title: "Superstore Sales & Profit Performance Dashboard",
+    category: "Excel, Power Query, Dynamic Pivot Tables",
+    description: "Cleaned and transformed multi-year sales data using Power Query. Designed an interactive executive dashboard that allows stakeholders to filter performance by region, customer segment, and product category. Key result: Identified low-margin product categories and highlighted top-performing sales regions.",
+    image: "/images/superstore-dashboard.png",
+    link: "https://docs.google.com/spreadsheets/d/1Z39m5s7_MLrv2H4MHCUN3DYWwsXY4XN7/edit?usp=drive_link&ouid=106832592273789903882&rtpof=true&sd=true"
   },
-    {
-      title: "Superstore Sales & Profit Performance Dashboard",
-      category: "Power BI, Power Query, DAX",
-      description: "Built an interactive HR dashboard from 311 employee records using Power Query for data cleaning and DAX for measures. Covers headcount, active vs. terminated employees, department distribution, recruitment sources, performance scores, salaries, and employee locations. Key result: Revealed a 33.44% turnover rate and that Production accounts for about 67% of the workforce.",
-      image: "/images/hr-employees-dashboard.png",
-      link: "https://github.com/MohamedHosny111/HR-Employees-Dashboard-PowerBI"
-    }
-};
+  {
+    title: "HR Employees Dashboard",
+    category: "Power BI, Power Query, DAX",
+    description: "Built an interactive HR dashboard from 311 employee records using Power Query for data cleaning and DAX for measures. Covers headcount, active vs. terminated employees, department distribution, recruitment sources, performance scores, salaries, and employee locations. Key result: Revealed a 33.44% turnover rate and that Production accounts for about 67% of the workforce.",
+    image: "/images/hr-employees-dashboard.png",
+    link: "https://github.com/MohamedHosny111/HR-Employees-Dashboard-PowerBI"
+  }
+],
+testimonial: {
+  quote: "Mohamed transformed our raw sales spreadsheet into a very clear and easy-to-read Excel dashboard. It helped us immediately see which products were most profitable.",
+  author: "— E-commerce Store Owner (Freelance Practice Case)"
+},
 
 export default function Home() {
   const { personalInfo, skills, education, certifications, projects, testimonial } = portfolioData;
